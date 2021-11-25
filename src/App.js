@@ -2,7 +2,8 @@ import SearchBar from './components/Searchbar';
 import ImageGallery from './components/ImageGallery';
 import Button from './components/Button';
 import getServerResponse from './services/ApiService';
-import Loader from 'react-loader-spinner';
+import Loader from './components/Loader';
+
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import { useState, useEffect } from 'react';
 
