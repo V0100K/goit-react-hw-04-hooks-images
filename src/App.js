@@ -59,8 +59,7 @@ const App = () => {
           throw err;
         });
     }
-    // требует зависимость gallery  - но она здесь не нужна.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [searchQuery, page]);
 
   if (status === 'idle') {
