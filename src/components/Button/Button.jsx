@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 
-
 const Button = ({ onClick, children, status }) => {
   return (
     <div className='loader_wrapper'>

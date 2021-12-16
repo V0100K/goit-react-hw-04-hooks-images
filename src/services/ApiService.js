@@ -2,7 +2,6 @@
 
 import axios from 'axios';
 
-//pixabay
 function getServerResponse(q = '', page) {
   const sendParam = {
     key: '24259107-5370b13ebcd4de04825255a0d',

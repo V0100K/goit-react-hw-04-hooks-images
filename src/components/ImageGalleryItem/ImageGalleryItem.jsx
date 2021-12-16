@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import Modal from '../Modal';
 import { useState } from 'react';
 
+
 const ImageGalleryItem = ({ largeImageURL, webformatURL }) => {
     const [isModal, setIsModal] = useState(false);
 

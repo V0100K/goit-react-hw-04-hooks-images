@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import ImageGalleryItem from '../ImageGalleryItem';
 
+
 const ImageGallery = ({ gallery }) => {
   return (
       <ul className="ImageGallery">
